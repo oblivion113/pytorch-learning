@@ -16,9 +16,20 @@ It uses a synthetic classification dataset (`make_moons`) so you can learn model
 
 ## Setup
 
+Python version: `>=3.10` (also defined in `pyproject.toml`).
+
+CPU/local install:
+
 ```bash
 conda activate <your_env_name>
 python -m pip install -r requirements.txt
+```
+
+GPU/server install (CUDA 12.4 wheels):
+
+```bash
+conda activate <your_env_name>
+python -m pip install -r requirements-gpu.txt
 ```
 
 ## Run locally

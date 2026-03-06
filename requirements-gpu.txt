@@ -1,0 +1,14 @@
+# Python version: >=3.10
+# GPU install target: CUDA 12.4 wheels from PyTorch.
+# If your server uses a different CUDA runtime, switch `cu124` accordingly.
+--index-url https://download.pytorch.org/whl/cu124
+--extra-index-url https://pypi.org/simple
+
+torch==2.7.*
+torchvision==0.22.*
+numpy
+pandas
+matplotlib
+scikit-learn
+tqdm
+pyyaml
