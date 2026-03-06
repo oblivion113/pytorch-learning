@@ -1,0 +1,22 @@
+seed: 42
+
+experiment:
+  name: moons_mlp
+  output_dir: outputs/default
+
+data:
+  num_samples: 2000
+  noise: 0.25
+  test_size: 0.2
+  val_size: 0.2
+  batch_size: 64
+  num_workers: 0
+
+model:
+  hidden_dims: [32, 32]
+  dropout: 0.1
+
+train:
+  epochs: 30
+  learning_rate: 0.001
+  weight_decay: 0.0
